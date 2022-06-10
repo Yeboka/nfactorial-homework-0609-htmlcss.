@@ -1,0 +1,62 @@
+.player {
+    background-color: #e660b6;
+    border-radius: 10%;
+    width: 38vh;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 30px;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: whitesmoke !important;
+    font-size: 20px;
+}
+
+p {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.times {
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0 10px;
+    margin-top: 13px;
+}
+
+#pause, #play, #prev, #next {
+    cursor: pointer;
+}
+
+.hidden {
+    cursor: pointer;
+    display: none ;
+}
+
+#progressBar {
+    margin-top: 10px;
+    width: 90%;
+
+}
+
+#progress {
+    width: 100%;
+}
+
+.buttons {
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
